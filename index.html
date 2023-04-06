@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TechnoXyno</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #0003ff, #ff000a);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #0003ff, #ff000a);
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            text-align: center;
+            height: calc(100vh - 60px); /* Subtract the height of the header and the h1 element from the viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            padding-top: 50px; /* Add some padding to the top of the h1 element to prevent it from being hidden behind the header */
+        }
+
+        button {
+            background: linear-gradient(to right, #00ffff, #a400ff);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .download-button {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        p.align-center {
+            text-align: center;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2></h2>
+        <a href="https://youtube.com/@SankuSurtekar" target="_blank"><button>Visit my YouTube Channel</button></a>
+    </header>
+    <div>
+        <h1 align="">*Hello Universe*</h1>
+        <p align="bottom">"Code is a canvas of infinite possibilities, where the only limit is your imagination."</p>
+        <p><b>SCROLL DOWN TO GET YOUR DESTINATION</b> <3 ↓</p>
+        <div style="height: 250px;"></div>
+        <button class="download-button"><a href="https://drive.google.com/file/d/1A1LciuEMZy4WG7Sdu5muyPBPw9zz1yy9/view?usp=drivesdk" target="_blank">Download Drive</a></button>
+        <p class="align-center"><b>↓To Download ↓Bhagwat geeta Pdf ↓</b></p>
+        <p> Click On Download Drive</p>
+        <p> source : https://www.pdfdrive.com/download-bhagvad-gita-in-english-e37976637.html</p> 
+        
+    </div>
+   <div class="ad-container">
+  <!-- your ad code here -->
+</div>
+ 
+    <script>
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
